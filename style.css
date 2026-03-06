@@ -309,3 +309,104 @@ footer {
     background-color: #1B4332;
     transform: translateY(-2px);
 }
+
+
+
+/* ===== BAGIAN KALKULATOR ZAKAT ===== */
+.zakat-section {
+    border-left: 8px solid #D4AF37;
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+}
+
+.form-container {
+    background-color: #F8F1E5;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #1B4332;
+    font-size: 0.9rem;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: white;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus, 
+.form-group select:focus {
+    outline: none;
+    border-color: #2D6A4F;
+    box-shadow: 0 0 5px rgba(45, 106, 79, 0.3);
+}
+
+.result-box {
+    background-color: #F0F7F4;
+    border: 2px solid #2D6A4F;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 25px;
+    animation: fadeIn 0.5s ease;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    font-size: 0.95rem;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.result-item.highlight {
+    background-color: #D4AF37;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.result-item.highlight strong {
+    color: white;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive untuk Kalkulator Zakat*/
+@media (max-width: 768px) {
+    .zakat-section {
+        max-width: 100%;
+        margin: 0 20px;
+    }
+    .result-item {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
