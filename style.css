@@ -288,6 +288,10 @@ main {
     width: 100%;
 }
 
+.zikirr {
+   text-align: center;
+}
+
 .counter {
     font-size: 3rem;
     font-weight: bold;
@@ -1319,4 +1323,5 @@ footer {
         padding: 15px;
     }
 }
+
 
