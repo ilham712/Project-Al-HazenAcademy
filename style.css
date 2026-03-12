@@ -288,7 +288,7 @@ main {
     width: 100%;
 }
 
-.zikirr {
+.zikirr h2 {
    text-align: center;
 }
 
@@ -1323,5 +1323,6 @@ footer {
         padding: 15px;
     }
 }
+
 
 
