@@ -286,11 +286,9 @@ main {
     background-color: #ffffff;
     max-width: 500px;
     width: 100%;
-}
-
-.zikirr h2 {
    text-align: center;
 }
+
 
 .counter {
     font-size: 3rem;
@@ -1323,6 +1321,7 @@ footer {
         padding: 15px;
     }
 }
+
 
 
 
